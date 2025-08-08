@@ -25,8 +25,8 @@ exiftool PO-465514-180820.doc
 - The Template field shows `Normal.dotm`, which is macro-enabled.
 
 **Screenshot:**  
-![Q1 Image](images/Q1.png)
-![q1.1 Image](images/q1.1.png)
+![Q1](images/Q1.png)
+![q1.1](images/q1.1.png)
 
 **Answer:** ✅ Yes, the file contains a VBA macro.
 
@@ -46,8 +46,8 @@ Extracted macro code and looked for auto-execution keywords.
 **Answer:** 🔑 Macro Keyword: `Document_Open`
 
 **Screenshot Proof:**  
-![Q2 Image](images/Q2.png)
-![Q2.1 Image](images/Q2.1.png)
+![Q2](images/Q2.png)
+![Q2.1](images/Q2.1.png)
 
 ---
 
@@ -61,7 +61,7 @@ Retrieved metadata containing author information.
 
 
 **Screenshot Proof:**  
-![Q3 Image](images/Q3.png)
+![Q3](images/Q3.png)
 
 
 ---
@@ -77,8 +77,8 @@ Displayed metadata including LastSavedTime.
 **Answer:** ⏳ Last Saved Time: **(Timestamp from output)**
 
 **Screenshot Proof:**  
-![Q4 Image](images/Q4.png)
-![Q4.1 Image](images/Q4.1.png)
+![Q4](images/Q4.png)
+![Q4.1](images/Q4.1.png)
 
 ---
 
@@ -100,9 +100,9 @@ Verified findings by checking the file hash on VirusTotal.
 **Answer:** 🌐 Domain: `hocosco.mobi`
 
 **Screenshot Proof:**  
-![Q5 Image](images/Q5.png)
-![Q5.1 Image](images/Q5.1.png)
-![Q5.2 Image](images/Q5.2.png)
+![Q5](images/Q5.png)
+![Q5.1](images/Q5.1.png)
+![Q5.2](images/Q5.2.png)
 
 
 
@@ -122,7 +122,7 @@ Checked the IOC extraction table in the output.
 **Answer:** 📌 IOCs Count: **2**
 
 **Screenshot Proof:**  
-![Q6 Image](images/Q6.png)
+![Q6](images/Q6.png)
 
 ---
 
