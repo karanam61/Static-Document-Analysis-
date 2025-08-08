@@ -25,7 +25,8 @@ exiftool PO-465514-180820.doc
 - The Template field shows `Normal.dotm`, which is macro-enabled.
 
 **Screenshot:**  
-
+![Q1 Image](images/Q1.png)
+![q1.1 Image](images/q1.1.png)
 
 **Answer:** ✅ Yes, the file contains a VBA macro.
 
@@ -45,7 +46,8 @@ Extracted macro code and looked for auto-execution keywords.
 **Answer:** 🔑 Macro Keyword: `Document_Open`
 
 **Screenshot Proof:**  
-![olevba macro keyword proof](images/question2.png)
+![Q2 Image](images/Q2.png)
+![Q2.1 Image](images/Q2.1.png)
 
 ---
 
@@ -57,10 +59,10 @@ oleid PO-465514-180820.doc
 ```
 Retrieved metadata containing author information.
 
-**Answer:** ✍️ Author: **(Author name from output)**
 
 **Screenshot Proof:**  
-![oleid author proof](images/question3.png)
+![Q3 Image](images/Q3.png)
+
 
 ---
 
@@ -75,7 +77,8 @@ Displayed metadata including LastSavedTime.
 **Answer:** ⏳ Last Saved Time: **(Timestamp from output)**
 
 **Screenshot Proof:**  
-![olemeta last saved time proof](images/question4.png)
+![Q4 Image](images/Q4.png)
+![Q4.1 Image](images/Q4.1.png)
 
 ---
 
@@ -84,7 +87,7 @@ File: `/root/Desktop/QuestionFiles/Siparis_17.xls`
 
 **Method Used:**
 ```bash
-olevba --decode Siparis_17.xls
+olevba --d Siparis_17.xls
 ```
 Decoded macros to reveal any embedded URLs.
 
@@ -97,7 +100,11 @@ Verified findings by checking the file hash on VirusTotal.
 **Answer:** 🌐 Domain: `hocosco.mobi`
 
 **Screenshot Proof:**  
-![olevba domain IOC proof](images/question5.png)
+![Q5 Image](images/Q5.png)
+![Q5.1 Image](images/Q5.1.png)
+![Q5.2 Image](images/Q5.2.png)
+
+
 
 ---
 
@@ -115,7 +122,7 @@ Checked the IOC extraction table in the output.
 **Answer:** 📌 IOCs Count: **2**
 
 **Screenshot Proof:**  
-![olevba IOCs count proof](images/question6.png)
+![Q6 Image](images/Q6.png)
 
 ---
 
