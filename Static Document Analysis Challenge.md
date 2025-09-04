@@ -1,16 +1,18 @@
-## 📂 Digital Forensics – Static Document Analysis Challenge
+🎯 Purpose of This Analysis
 
-### 🎯 Purpose of This Analysis
-The goal of this challenge was to statically analyze suspicious Microsoft Office documents without executing them, in order to:
+The aim of this challenge was to statically analyze suspicious Microsoft Office docs without actually running them. The focus here was to:
 
-- Detect the presence of VBA macros that could execute malicious code.
-- Identify auto-execution triggers (e.g., Document_Open) used to launch attacks.
-- Extract and review metadata (author, timestamps) that could assist in attribution or timeline building.
-- Find Indicators of Compromise (IOCs) such as URLs, domains, and file hashes.
-- Practice using forensic tools (exiftool, olevba, oleid, olemeta) commonly applied in malware triage and incident response.
+Spot any embedded VBA macros that could execute malicious code.
 
-This process simulates real-world document malware investigations, where opening a malicious file in a live environment could infect the system.  
-By using static analysis tools, we can safely gather evidence without executing any harmful code.
+Look for auto-execution triggers like Document_Open that attackers rely on to launch payloads.
+
+Pull out and review metadata (author names, timestamps) that could help in attribution or timeline building.
+
+Extract IOCs like URLs, domains, and hashes that tie back to the malicious activity.
+
+Practice with forensic tools like exiftool, olevba, oleid, and olemeta that are used regularly in malware triage and IR.
+
+This whole process simulates how you’d handle document malware in a real investigation. Instead of opening the file and risking an infection, static tools give you a safe way to pull evidence and get the bigger picture without executing anything harmful.
 
 ---
 
