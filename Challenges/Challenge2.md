@@ -2,30 +2,27 @@ We've got strings from a vba script so we need to decode what
 information from the script to know what' s going on .
 
 ![A screenshot of a computer code AI-generated content may be
-incorrect.](media/media/image1.png){width="6.5in" height="2.3625in"}
+incorrect.](images/media/image1.png)
 
 First let us analyze this block .We are solely focusing on the hex
 strings as the others are just functions written in gibberish .
 
-![](media/media/image2.png){width="5.18378280839895in"
-height="0.35003062117235345in"}
+![](images/media/image2.png)
 
 As & in between we need to concatenate
 
 ![A screenshot of a computer AI-generated content may be
-incorrect.](media/media/image3.png){width="5.858840769903762in"
-height="2.975258092738408in"}
+incorrect.](images/media/image3.png)
 
 We get a domain with a suspicious directory
 
 ![A screenshot of a computer AI-generated content may be
-incorrect.](media/media/image4.png){width="6.217205818022747in"
-height="0.8917443132108487in"}
+incorrect.](images/media/image4.png)
 
 Next block of code
 
 ![A screenshot of a computer AI-generated content may be
-incorrect.](media/media/image5.png){width="6.5in"
+incorrect.](images/media/image5.png){width="6.5in"
 height="2.0034722222222223in"}
 
 Then the very next line says environ(temp)/ & referring to the same
@@ -36,14 +33,12 @@ What I can deduce right now is that the url is trying to create a temp
 file called dropped.exe .Lets move forward .
 
 ![A close up of numbers AI-generated content may be
-incorrect.](media/media/image6.png){width="6.067192694663167in"
-height="0.808403324584427in"}
+incorrect.](images/media/image6.png)
 
 This confirm its that something is being created .
 
 ![A screenshot of a computer AI-generated content may be
-incorrect.](media/media/image7.png){width="6.067192694663167in"
-height="3.9753444881889766in"}
+incorrect.](images/media/image7.png)
 
 **What it actually is**
 
@@ -140,38 +135,31 @@ http.Send
 - Then Wscript.Shell or Shell runs that file.
 
 ![A screenshot of a computer AI-generated content may be
-incorrect.](media/media/image8.png){width="6.5in"
-height="2.0395833333333333in"}
+incorrect.](images/media/image8.png)
 
 This is the user agent . Probably a fake one for authenctication.
 
 Now we will answer some questions .
 
 ![A screenshot of a computer AI-generated content may be
-incorrect.](media/media/image9.png){width="6.5in"
-height="3.7840277777777778in"}
+incorrect.](images/media/image9.png)
 
 ![A screenshot of a computer AI-generated content may be
-incorrect.](media/media/image10.png){width="6.5in"
-height="2.6326388888888888in"}
+incorrect.](images/media/image10.png)
 
 All straightforward as we decoded the meaning earlier .
 
 ![A screenshot of a computer program AI-generated content may be
-incorrect.](media/media/image11.png){width="6.5in"
-height="3.9756944444444446in"}![A screenshot of a computer code
+incorrect.](images/media/image11.png){![A screenshot of a computer code
 AI-generated content may be
-incorrect.](media/media/image12.png){width="6.5in"
-height="2.5722222222222224in"}![A screenshot of a computer code
+incorrect.](images/media/image12.png)![A screenshot of a computer code
 AI-generated content may be
-incorrect.](media/media/image13.png){width="6.5in"
-height="4.083333333333333in"}
+incorrect.](images/media/image13.png)
 
 Now we are analyzing the later part of the code .
 
 ![A screenshot of a computer AI-generated content may be
-incorrect.](media/media/image14.png){width="6.5in"
-height="1.8041666666666667in"}
+incorrect.](images/media/image14.png)
 
 Meaninful text out of it is .
 
@@ -223,5 +211,4 @@ This ties back to the rest of the VBA:
 - **WScript.Shell / WMI Win32_Process** → executes that file stealthily.
 
 ![A screenshot of a computer screen AI-generated content may be
-incorrect.](media/media/image15.png){width="6.5in"
-height="1.3347222222222221in"}
+incorrect.](images/media/image15.png)
