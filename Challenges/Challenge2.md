@@ -22,8 +22,7 @@ incorrect.](images/media/image4.png)
 Next block of code
 
 ![A screenshot of a computer AI-generated content may be
-incorrect.](images/media/image5.png){width="6.5in"
-height="2.0034722222222223in"}
+incorrect.](images/media/image5.png)
 
 Then the very next line says environ(temp)/ & referring to the same
 function that gave us dropped exe so right form the tinyurl to this temp
